@@ -1,0 +1,130 @@
+
+.c01-banner-content{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.c01-banner-content img{
+    width: 100%;
+}
+.c01-banner-content video{
+    width: 100%;
+}
+.c01-txt{
+    position: absolute;
+    color: #fff; 
+}
+.c01-banner-content .left{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12.552083vw;
+    text-align: left;
+}
+.c01-banner-content .center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.c01-banner-content .right{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12.552083vw;
+    text-align: right;
+}
+.c01-txt > h2{
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.375;
+}
+.c01-txt > p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.375;
+    margin-top: 12px;
+}
+.c01-txt > .txt-52{
+    font-size: 52px;
+}
+.c01-txt > .txt-48{
+    font-size: 48px;
+}
+.c01-txt > .txt-36{
+    font-size: 36px;
+}
+.c01-txt > .txt-32{
+    font-size: 32px;
+}
+.c01-txt > .txt-24{
+    font-size: 24px;
+}
+.c01-txt > .txt-20{
+    font-size: 20px;
+}
+    
+.video-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 11;
+}
+
+@media (max-width:991px) {
+    .c01-txt > h2 {
+        font-size: 6.666667vw;
+    }
+    .c01-txt > p {
+        font-size: 3.611111vw;
+        margin-top: 4.166667vw;
+    }
+    .c01-banner-content .left {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width: 100%;
+    }
+    .c01-banner-content .center {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width: 100%;
+    }
+    .c01-banner-content .right {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width: 100%;
+    }
+
+    .c01-txt > .txt-52{
+        /* 48 */
+        font-size: 6.666667vw; 
+    }
+    .c01-txt > .txt-48{
+        /* 40 */
+        font-size: 5.555556vw;
+    }
+    .c01-txt > .txt-36{
+        /* 32 */
+        font-size: 4.444444vw;
+    }
+    .c01-txt > .txt-32{
+        /* 28 */
+        font-size: 3.888889vw;
+    }
+    .c01-txt > .txt-24{
+        /* 20 */
+        font-size: 2.777778vw;
+    }
+    .c01-txt > .txt-20{
+        /* 16 */
+        font-size: 2.222222vw;
+    }
+  
+}
